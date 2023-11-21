@@ -1,0 +1,143 @@
+button{
+    cursor: pointer;
+}
+.profil_corp{
+    background-color: #0044ff54;
+}
+.profil{
+    display: flex;
+    justify-content: space-between;
+    height: 91.82vh;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+    color: #2D4999;
+}
+.sidebar{
+    height:  99%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.information{
+    height:  99%;
+    width: 69.5%;
+    background-color: rgb(255, 255, 255);
+    overflow-y:scroll;
+}
+.photo_profil{
+    width: 35%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.photo_profil img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.photo_profil img:hover {
+    -webkit-filter : invert(10%); /* Chrome, Safari, Opera */
+    filter : invert(10%);
+}
+.btn_profil{
+    margin-top: 50px;
+}
+.btn{
+    background-color: white;
+    color: #2D4999;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: 1px #2D4999 solid;
+}
+.decox {
+    margin-top: auto;
+}
+.deconnexion_profil{
+    background-color: white;
+    color: red;
+    border: 1px solid  red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    position: relative;
+    bottom: 0;
+}
+.info{
+    
+    padding-top: 100px;
+}
+.btn_information{
+    width: 70%;
+    height: 120px;
+    border-bottom:rgba(94, 93, 93, 0.62) solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.profil_info_titre{
+    margin-bottom: 5px;
+    font-size: 150%;
+}
+.profil_info_user{
+    color: black;
+}
+.btn_information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn_edit_del{
+    margin-top: 40px;
+}
+.btn_edit_del button{
+    border: #2D4999 solid 1px;
+    color: #2D4999;
+    background-color: white;
+}
+.edit_file{
+    display: flex;
+    justify-content: center;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    padding: 10px 10px 10px 10px;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #2d4a9977
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+.input_edit{
+    border: 1px solid ;
+}

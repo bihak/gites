@@ -1,0 +1,37 @@
+.gite_titre-resa{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-bottom: 10px solid #2D4999;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+.resa_box ul {
+    display: flex;
+    justify-content: center;
+}
+.resa_box ul li {
+    display: flex;
+    align-items: flex-end;
+    height: 50px;
+    border-bottom: 1px solid black ;
+}
+.resa_box ul li h3{
+    margin-left: 0%;
+}
+.resa_box ul .gite_nom{
+    width:  30%;
+}
+.resa_box ul .gite_prix{
+    width:  8%;
+}
+.resa_box ul .gite_arriver{
+    width:  12%;
+}
+.resa_box ul .gite_depart{
+    width:  14%;
+}
+.resa_box ul .gite_adresse{
+    width:  30%;
+}

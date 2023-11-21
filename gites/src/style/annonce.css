@@ -1,0 +1,38 @@
+.gite {
+    position: relative;
+}
+
+.boutons_edit_sup {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 10px;
+    right: 10px;
+    width: 20%;
+}
+
+.supprimer, .edit {
+    width: 48%;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff4c;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.supprimer {
+    color: #ff0000;
+    margin-right: 10px;
+}
+
+.edit {
+    color: #007bff;
+}
+
+.supprimer:hover, .edit:hover {
+    background-color: #fcfcfc;
+}

@@ -1,0 +1,36 @@
+.deco{
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+}
+.deco .attention{
+    color: red;
+    border-bottom: 2px solid black ;
+    margin-bottom: 30px;
+}
+.bouton_deconexion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.bouton_deconexion button{
+    width: 170px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.bouton_deconexion .deconnexion{
+    background-color: red;
+    color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.bouton_deconexion .annuler{
+    background-color: rgb(255, 255, 255);
+    color: #2D4999;
+    border: 1px solid #2D4999;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}

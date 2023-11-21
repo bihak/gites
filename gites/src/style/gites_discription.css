@@ -1,0 +1,111 @@
+.discription_gite{
+    text-align: center;
+}
+.titre{
+    width: 60%;
+    font-size: 0.8em;
+}
+.discription_gite .titre_gite_discription{
+    border-bottom: #2D4999 7px solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #2D4999;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.gite_discription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.img_gite_discription{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+}
+.img_gite_discription img{
+    height: 200px;
+    margin: 15px;
+    border: #ffffff00 solid 1px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.gite_discription-info{
+    color: #2D4999;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin-bottom: 20px;
+}
+
+.gite_discription_equipement ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.gite_discription_equipement ul li{
+    width: 150px;
+    height: 170px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+.erreur .ereur404 img{
+    height: 100%;
+}
+iframe{
+    width: 100%;
+    height: 400px;
+}
+@media(max-width: 1220) {
+    .img_gite_discription{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+    }
+}
+@media (max-width: 875px ) { 
+    .gite_discription_equipement ul{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: 1px solid black;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 700px ) { 
+    .gite_discription_equipement ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: 1px solid black;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 530px ) { 
+    .gite_discription_equipement ul{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        border: 1px solid black;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

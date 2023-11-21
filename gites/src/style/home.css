@@ -1,0 +1,268 @@
+.home{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.logo img{
+    height: 100%;
+}
+.bouton{
+    display: flex;
+    align-items: center;
+}
+.bouton button{
+    height: 30px;
+}
+.img_acceuil{
+    width: 100vw;
+    height: 100vh;
+}
+.img_acceuil img{
+    width: 100%;
+    height: 100%;
+}
+.sur_image{
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    top: 300px;
+    left: 10%;
+    color: white;
+    font-weight: 700;
+}
+.sur_image h1{
+    font-size: 75px;
+}
+.sur_image p{
+    font-size: 24px;
+}
+.sur_image .bouton{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #2D4999;
+    width: 250px;
+    border-radius: 15PX;
+    border: none;
+    margin-top: 20px;
+}
+.git{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.git .titre_gite{
+    text-align: center;
+    border-bottom: #2D4999 7px solid;
+    font-size: 3em;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #2D4999;
+    margin-top: 20px;
+}
+.gites{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.gite_add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gite{
+    height: 300px;
+    margin: 1%;
+}
+.gite img{
+    width: 100%;
+}
+.gite_bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+.gite .ajoutgite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+.gite .ajoutgite img{
+    width: 150px;
+    height: 150px;
+}
+.gite h3,h5{
+    color: #2D4999;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin: 0;
+    line-height: 1;
+}
+.git_plus{
+    width: 100vw;
+    height: 50vh;
+    background-color: #2D4999;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gites_plus{
+    display: flex;
+    justify-content: center;
+}
+.gites_plus_box{
+    width: 300px;
+    height: 300px;
+    border: solid 1px white;
+    margin: 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+.gites_plus_box h3{
+    margin-bottom: 40px;
+}
+.gites_plus_box p{
+    width: 200px;
+    margin-left: 50px;
+    font-size: 13px;
+}
+.gites_plus_box_img{
+    width: 50px;
+    height: 50px;
+    border: solid 3px #2D4999;
+    border-radius: 50%;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.git_plus .titre_gite{
+    text-align: center;
+    border-bottom: #ffffff 7px solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.last_img{
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+}
+.last_img img{
+    width: 100%;
+    height: 100%;
+}
+.last_img .last_img_text{
+    position: absolute;
+    color: white;
+    width: 60%;
+    height: 160px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-bottom: #ffffff solid 5px;
+}
+.Reservation{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #2D4999;
+    width: 250px;
+    border-radius: 15PX;
+    border: none;
+    margin-bottom: 10px;
+}
+.reserv{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 875px ) { 
+    .gites{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 600px ) { 
+    .gites{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 1130px) { 
+    .gite_titre{
+        font-size: 1.2em;
+    }
+    .gite_titre .titre_gite{
+        width: 50%;
+    }
+    .git_plus{
+        height: 100%;
+    }
+    .gites_plus{
+        height:  100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 410px) { 
+    .gite_titre{
+        width: 100%;
+        font-size: 1em;
+    }
+    .gite_titre .titre_gite{
+        width: 70%;
+    }
+}
